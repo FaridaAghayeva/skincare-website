@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  width: 100%;
+  height: 737px;
+  background-repeat: no-repeat;
+  background-color: rgba(137, 159, 135, 255);
+  display: flex;
+  position: relative;
+}
+.right {
+  width: 53%;
+  height: 737px;
+  background-repeat: no-repeat;
+  margin-left: 24%;
+  background-image: url("https://assets-global.website-files.com/65adcca2df53eafcdc411e4e/65addf7dc404c76595d28ac5_Velvety%2520-%2520Home%2520Hero%2520BG-p-1080.png");
+}
+.logo {
+  box-sizing: border-box;
+  padding: 20px 120px;
+  width: 400px;
+  height: fit-content;
+}
+.li_items {
+  color: #f2f6ef;
+  font-family: Tahoma, "Trebuchet MS", sans-serif;
+  display: flex;
+  box-sizing: border-box;
+  padding: 35px;
+  justify-content: space-between;
+  align-items: center;
+}
+.li_left,
+.li_right {
+  display: flex;
+  gap: 40px;
+}
+.header_main {
+  position: absolute;
+  right: 1px;
+  justify-content: center;
+  display: flex;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: local("Ivy Mode Regular"), local("Ivy-Mode-Regular"),
+    url("../../fonts/IvyMode-Regular.woff2") format("woff2"),
+    url("../../fonts/IvyMode-Regular.woff") format("woff"),
+    url("../../fonts/IvyMode-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+.title {
+  width: 700px;
+  height: 150px;
+  position: relative;
+}
+.title p {
+  font-size: 90px;
+  font-family: "Ivy Mode", sans-serif;
+  color: #f2f6ef;
+}
+.title_container {
+  padding-top: 60px;
+  box-sizing: border-box;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+}
+
+.product_img img {
+  width: 700px;
+  transform: rotate(-10deg);
+  box-sizing: border-box;
+  margin-left: 90px;
+  position: absolute;
+  right: 850px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 72px;
+  width: 350px;
+  font-size: 22px;
+  font-family: Tahoma, "Trebuchet MS", sans-serif;
+  background-color: white;
+}

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  text-align: center;
+  box-sizing: border-box;
+  gap: 20px;
+  width: 64%;
+  padding: 80px 50px 0 50px;
+  height: 100%;
+  background-color: #f2f6ef;
+}
+@font-face {
+  font-family: "Ivy Mode";
+  src: local("Ivy Mode Light"), local("Ivy-Mode-Light"),
+    url("../../fonts/IvyMode-Light.woff2") format("woff2"),
+    url("../../fonts/IvyMode-Light.woff") format("woff"),
+    url("../../fonts/IvyMode-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+.container p {
+  font-family: "Ivy Mode", sans-serif;
+  font-size: 56px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+.container img {
+  box-sizing: border-box;
+  width: 650px;
+  padding: 0 50px;
+}

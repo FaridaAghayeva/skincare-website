@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #f4f4ec;
+  padding: 0 100px;
+}
+.box {
+  background-color: #f4f4ec;
+}
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: local("Ivy Mode Light"), local("Ivy-Mode-Light"),
+    url("../../fonts/IvyMode-Light.woff2") format("woff2"),
+    url("../../fonts/IvyMode-Light.woff") format("woff"),
+    url("../../fonts/IvyMode-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+.title_container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 120px;
+}
+.text {
+  color: #1a1a1a;
+  font-family: "Ivy Mode", sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+  padding: 0 200px;
+}
+@font-face {
+  font-family: "Aileron";
+  src: local("Aileron Light"), local("Aileron-Light"),
+    url("../../fonts/Aileron-Light.woff2") format("woff2"),
+    url("../../fonts/Aileron-Light.woff") format("woff"),
+    url("../../fonts/Aileron-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+.title {
+  color: #617c5f;
+  font-size: 30px;
+  font-family: "Aileron", sans-serif;
+}
